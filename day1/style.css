@@ -1,0 +1,136 @@
+body,
+html
+h1,
+h2,
+h3,
+p,
+strong {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+.header{
+    height: 48px;
+    background-color: #494949;
+}
+
+.product {
+    padding-top: 18px;
+    text-align: center;
+    background-color: #fafafa;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+/* calc로 계산하는 방법(단점: 비지원 브라우저 있음)*/
+.product.type_dark {
+    color: #fff;
+    padding-top: 32px;
+    background-image: url(./img/ios_13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: calc( ( 100vw * 1.15 ) - 32px);
+}
+
+.product.type_dark .product_title,
+.product.type_dark .product_detail {
+    color: #fff;
+}
+
+/* TODO: padding-top을 이용하여 높이값 계산(단점: 안의 내용을 absolute로 띄워야함) */
+.product.type_dark2{
+    padding-top:0;
+    position: relative;
+}
+
+.product.type_dark2 .bg_image {
+    background-image: url(./img/ios_13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-top: 115%;
+}
+
+.product.type_dark2 .product_title,
+.product.type_dark2 .product_detail,
+.product.type_dark2 .link_wrap {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.product.type_dark2 .product_title{
+    top: 32px;
+}
+
+.product.type_dark2 .product_detail{
+    top: 68px;
+    margin:0 30px;
+}
+
+.product.type_dark2 .link_wrap{
+    top: 135px;
+}
+
+.product_title {
+    margin-bottom: 5px;
+    font-size: 24px;
+    line-height: 31px;
+    color: #0f0f0f;
+}
+
+.product_detail {
+    margin: 0 30px;
+    font-size: 17px;
+    line-height: 28px;
+    color: #0f0f0f;
+}
+
+.link_wrap {
+    margin: 11px 0 50px;
+}
+
+.link {
+    font-size: 17px;
+    line-height: 20px;
+    color: #0070c9;
+}
+
+.product_img{
+    width: 100%;
+}
+
+.product_img.img_padding {
+    padding-bottom: 61px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.description{
+    /* margin 병합 이슈로 padding 사용 */
+    padding: 17px 30px 0;
+    font-size: 12px;
+    line-height: 15px;
+    color: #888888;
+}
+
+.copyright {
+    display: inline-block;
+    padding: 29px 30px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #888888;
+
+}
