@@ -23,3 +23,32 @@ https://minjung-jeon.github.io/markup-study/day1/index.html
 
 - 참고 Site 목록
 1. [CSS 레이아웃을 배웁시다](https://ko.learnlayout.com/display.html)
+
+
+
+### Day 2
+https://minjung-jeon.github.io/markup-study/day2/index.html
+
+1. `box-sizing` : 박스의 크기를 어떤 기준으로 계산할지 정하는 속성
+   -  border-box : 해당 엘리먼트의 padding과 border를 포함하여 요소의 크기를 정한다.(선안한 값 width 그대로 보여진다.)
+2. border-radius 와 overflow:hidden
+   - 상위 엘리먼트에서 border-radius 속성 지정 후 하위 엘리먼트에서 background-color를 지정할 경우 radius가 정상적으로 나타나지 않는다.
+   - 이때 상위 엘리먼트에서 `overflow: hidden` 속성을 추가하면 radius가 정상적으로 적용
+   
+   ```html
+   <div id="wrapper">
+      <div id="box"></div>
+   </div>
+   ```
+   ```css
+   #wrapper {
+      width: 300px; height: 300px;
+      border-radius: 100px;
+      overflow: hidden;
+   }
+
+   #box {
+      width: 300px; height: 300px;
+      background-color: #cde;
+   }
+   ```
