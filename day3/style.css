@@ -41,7 +41,6 @@ a{
 }
 
 .tab{
-    height: 52px;
     background-color: #333;
     font-size: 0;
 }
@@ -50,12 +49,14 @@ a{
     /* display가 inline-block일 경우, vertical-align: top;도 같이 적어주는 것이 좋다.*/
     display: inline-block;
     vertical-align: top;
-    padding-top: 15px;
     width: 110px;
     text-align: center;
 }
 
 .menu_text{
+    display: block;
+    padding-top: 15px;
+    height: 37px;
     font-size: 18px;
     font-weight: 500;
     color: #ffffff;
