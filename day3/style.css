@@ -30,19 +30,19 @@ a{
     padding: 80px 0 0;
     font-size: 32px;
     font-weight: 600;
-    color: #ffffff;
+    color: #fff;
 }
 
 .sub_title{
     padding-top: 11px;
     font-size: 14px;
     font-weight: 600;
-    color: #ffffff;
+    color: #fff;
 }
 
 .tab{
     height: 52px;
-    background-color: #333333;
+    background-color: #333;
     font-size: 0;
 }
 
@@ -73,7 +73,7 @@ a{
 
 .right_container{
     float: left;
-    width: calc(74%);
+    width: 74%;
 }
 
 .content{
@@ -88,7 +88,7 @@ a{
     font-size: 24px;
     font-weight: 600;
     line-height: 28px;
-    color: #000000;
+    color: #000;
 }
 
 .content_img{
@@ -101,12 +101,12 @@ a{
     margin-top: 11px;
     font-size: 18px;
     font-weight: 600;
-    color: #000000;
+    color: #000;
 }
 
 .footer{
     height: 68px;
-    background-color: #000000;
+    background-color: #000;
     text-align: center;
 }
 
@@ -115,6 +115,6 @@ a{
     margin-top :20px;
     font-size: 24px;
     font-weight: 600;
-    color: #ffffff;
+    color: #fff;
 }
 
