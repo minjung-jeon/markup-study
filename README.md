@@ -52,3 +52,23 @@ https://minjung-jeon.github.io/markup-study/day2/index.html
       background-color: #cde;
    }
    ```
+
+3. inline-block 이 html의 공백을 고려하여 여백이 생긴다.
+      - inline-block 레벨 요소 뒤에 공백이 있는 경우, 정의하지 않은 공간이 자동으로 지정된다.
+      - 회피 하는 방법은 부모 요소에 `font-size:0` 을 지정 하여 공백의 사이즈를 없앤다.
+
+- 참고 Site 목록
+1. [Fighting the Space Between Inline Block Elements](https://css-tricks.com/fighting-the-space-between-inline-block-elements/)
+
+
+### Day3
+
+https://minjung-jeon.github.io/markup-study/day3/index.html
+
+1. float 속성 적용시 부모(상위요소)에 `overflow: hidden;` 속성을 지정하여 float clear 시킨다.
+
+2. 공부해야할 것 : flex, float clear 시키는 방법들
+
+- 참고 Site 목록
+1. [CSS 레이아웃을 배웁시다](https://ko.learnlayout.com/inline-block.html)
+2. [float 레이아웃 문제 해결](https://webdir.tistory.com/272)
