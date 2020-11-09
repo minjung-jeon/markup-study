@@ -1,0 +1,120 @@
+body,
+html
+h1,
+h2,
+h3,
+p,
+strong,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+.header{
+    height: 220px;
+    background-color: #1abc9c;
+    text-align: center;
+}
+
+.title{
+    padding: 80px 0 0;
+    font-size: 32px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.sub_title{
+    padding-top: 11px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.tab{
+    height: 52px;
+    background-color: #333333;
+    font-size: 0;
+}
+
+.menu{
+    /* display가 inline-block일 경우, vertical-align: top;도 같이 적어주는 것이 좋다.*/
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 15px;
+    width: 110px;
+    text-align: center;
+}
+
+.menu_text{
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.wrapper{
+    padding: 40px 20px 37px 20px;
+    overflow: hidden;
+}
+
+.left_container{
+    float: left;
+    width: 26%;
+}
+
+.right_container{
+    float: left;
+    width: calc(74%);
+}
+
+.content{
+    margin-top: 20px;
+}
+
+.inner{
+    margin-left: 40px;
+}
+
+.content_title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #000000;
+}
+
+.content_img{
+    background-color: #d8d8d8;
+    height: 240px;
+    margin-top: 20px;
+}
+
+.content_text{
+    margin-top: 11px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.footer{
+    height: 68px;
+    background-color: #000000;
+    text-align: center;
+}
+
+.footer_text{
+    display: inline-block;
+    margin-top :20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
