@@ -1,0 +1,124 @@
+body,
+html
+h1,
+h2,
+h3,
+p,
+strong,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+button {
+    border:0 none;
+    background-color:transparent;
+    cursor:pointer;
+}
+
+.card{
+    /* position: relative; */
+    background-color: #111;
+    height: 340px;
+    margin: 56px 54px 0;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.tab_list{
+    position: relative;
+    z-index: 2;
+    background-color: #000;
+    text-align: center;
+    font-size: 0;
+}
+
+.tab{
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+}
+
+.tab_text{
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    color: #fff;
+    padding: 12px 0 14px 0;
+}
+
+.selected{
+    background-color: #333;
+}
+
+.container{
+    position: relative;
+    height: 100%;
+}
+
+.img_content{
+    width: 72%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: -40px;
+    z-index: 1;
+    background-image: url(./img/bg-civilwar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+}
+
+.text_content{
+    position: absolute;
+    z-index: 2;
+    margin-left: 300px;
+    margin-right: 9px;
+    color: #fff;
+}
+
+.title{
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 23px;  
+    margin-top: 41px; 
+}
+
+.detail{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    margin: 16px 0 24px 0;
+}
+
+.watch_btn{
+    padding: 10px 25px 10px 26px;
+    border-radius: 17px;
+    background-color: #c62828;
+    color: #fff;
+}
+
+.ticket_info{
+    margin-top: 50px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #fff;
+    font-size: 0;
+}
+
+.year, .running_time, .genre{
+    display: inline-block;
+    width: 33.3%;
+    font-size: 14px;
+}
